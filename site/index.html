@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Casetta Melodie</title>
+  
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+    <header>
+      <h1 data-translate="title">Welcome to Casetta Melodie</h1>
+  </header>
+
+
+  <nav>
+    <a href="#about" class="page1" onclick="pageselect(this.className)">page1</a>
+    <div class="drop">
+      <button class="btn" id="language">
+          <img id="languageflag" src="" alt="Language Flag">
+          <img id="languagechevron" src="img/chevron.png" alt="">
+      </button>
+      <div class="drop-content">
+          <a href="#" onclick="switchLanguage('en')">
+              <img class="flag" src="img/flag-en.png" alt="English" />
+          </a>
+          <a href="#" onclick="switchLanguage('fr')">
+              <img class="flag" src="img/flag-fr.png" alt="French" />
+          </a>
+          <a href="#" onclick="switchLanguage('it')">
+              <img class="flag" src="img/flag-it.jpg" alt="Italian" />
+          </a>
+          <!-- Add more language flags as needed -->
+      </div>
+    </div>
+  </nav>
+  
+  
+  <main>
+    <div id="page1">
+
+
+      <section id="about">
+          <h2 data-translate="subtitle1">About Us</h2>
+          <p data-translate="desc1"> Ideal for spending your holidays surrounded by greenery and tranquility 🌳 🏠 Completely independent, fully renovated and carefully furnished, a small cottage. Sale of organic honey, fruits, and vegetables. Additionally, for those who wish, there are massage sessions (draining, relaxing, cupping, Tibetan bells), Reiki.. 🌿 Guests have access to an outdoor space with a terrace, barbecue, and a walk in the woods, half an hour from Cuneo and 20 minutes from Saluzzo for those who want to visit these splendid towns and stroll through the market. 🏡 30 minutes from Lake Pontechianale, for those who enjoy hiking, small trails leading to 4 or 7 chapels. The farmhouse "Mélodie" is located in Venasca, province of Cuneo, in the Varaita Valley, in a characteristic mountain village nestled in the woods. 🌲The ideal place to recharge in nature and go hiking in the mountains, where you'll hear only the sound of streams and the song of birds 🏔️ A 10-minute drive from the village, convenient for all services. ✨ The best choice for a relaxing and nature-filled vacation 🥰 If you're interested, please contact me via email. </p>
+      </section>
+      <section id="portfolio">
+
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pics/image_6487327 (1).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327 (2).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327 (3).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327 (4).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327 (5).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327 (6).JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_6487327.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_50387201.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_50439937.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/image_50444033.JPG" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="pics/miele.jpg" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          
+      </section>
+      <section id="contact">
+          <h2 data-translate="contact">Contact Us</h2>
+          <p>Email: ferrieri.chabert@gmail.com</p>
+          <p>(+39)3407481617</p>
+          <p>(+39)3932968847</p>
+      </section>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <p>&copy; 2023-<span id="thisyear"></span> - Az. Agr. Ferrieri Marilene Assunta</p>
+  </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="json" src="translations.json"></script>
+    
+  </body>
+</html>

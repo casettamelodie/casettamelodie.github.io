@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+main {
+    padding: 2rem;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+#language-selector {
+    margin-top: 10px;
+}
+
+#language-selector label {
+    margin-right: 10px;
+}
+
+#language {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: blue;
+    color: red;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+ }
+ .drop {
+    position: relative;
+    display: inline-block;
+ }
+ .drop-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(232, 225, 225, 0.2);
+    z-index: 1;
+    border-radius: 0 10px 10px 10px; /* Rounding only the bottom corners */
+}
+
+ .drop-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+ .drop-content a:hover {
+    background-color: black;
+ }
+ .drop:hover .drop-content {
+    display: block;
+ }
+ .drop:hover .btn {
+    background-color: blue;
+ }
+ /* Flag styling */
+ .flag {
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+    vertical-align: middle;
+ }
+
+#languageflag {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#languagechevron {
+    width: 15px;
+    height: 15px;
+
+}
+
+
+/* Default styling for both mobile and desktop */
+#about p, #contact p {
+    font-size: 16px;
+  }
+  
+  /* Media query for desktop screens */
+  @media (min-width: 768px) {
+    #about p, #contact p {
+      font-size: 18px; /* Adjust the font size as needed */
+    }
+  }
+
+  /* Default styling for both mobile and desktop */
+.carousel-inner .carousel-item img {
+    max-width: 100%; /* Ensure images don't exceed the parent container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for desktop screens */
+  @media (min-width: 1024px) {
+    .carousel-inner .carousel-item img {
+      max-width: 50%; /* Reduce image size on desktop */
+      height: auto; /* Maintain aspect ratio */
+      margin: 0 auto; /* Center the images horizontally */
+    }
+  }
+  
+
+  
