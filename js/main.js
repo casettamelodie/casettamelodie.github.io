@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const flagImages = document.querySelectorAll('.flag');
 
     // Set default language to French
-    languageFlag.setAttribute('src', 'img/flag-fr.png');
-    languageFlag.setAttribute('alt', 'French Flag');
+    languageFlag.setAttribute('src', 'img/flag-en.png');
+    languageFlag.setAttribute('alt', 'English Flag');
 
     flagImages.forEach(flag => {
         flag.addEventListener('click', function () {
