@@ -14,13 +14,15 @@
 
   <body>
     <!-- Start your project here-->
-    <header>
+    <header class="header-with-background">
       <h1 data-translate="title">Welcome to Casetta Melodie</h1>
   </header>
-
+  
+  
+  
 
   <nav>
-    <a href="#about" class="page1" onclick="pageselect(this.className)">page1</a>
+    <a href="" class="page1" data-translate="page1">Tranquil Cottage Getaway</a>
     <div class="drop">
       <button class="btn" id="language">
           <img id="languageflag" src="" alt="Language Flag">
@@ -43,16 +45,28 @@
   
   
   <main>
+    <div class="main-container">
     <div id="page1">
 
 
       <section id="about">
           <h2 data-translate="subtitle1">About Us</h2>
           <p data-translate="desc1"> Ideal for spending your holidays surrounded by greenery and tranquility 🌳 🏠 Completely independent, fully renovated and carefully furnished, a small cottage. Sale of organic honey, fruits, and vegetables. Additionally, for those who wish, there are massage sessions (draining, relaxing, cupping, Tibetan bells), Reiki.. 🌿 Guests have access to an outdoor space with a terrace, barbecue, and a walk in the woods, half an hour from Cuneo and 20 minutes from Saluzzo for those who want to visit these splendid towns and stroll through the market. 🏡 30 minutes from Lake Pontechianale, for those who enjoy hiking, small trails leading to 4 or 7 chapels. The farmhouse "Mélodie" is located in Venasca, province of Cuneo, in the Varaita Valley, in a characteristic mountain village nestled in the woods. 🌲The ideal place to recharge in nature and go hiking in the mountains, where you'll hear only the sound of streams and the song of birds 🏔️ A 10-minute drive from the village, convenient for all services. ✨ The best choice for a relaxing and nature-filled vacation 🥰 If you're interested, please contact me via email. </p>
-      </section>
+
+          
+          <p data-translate="desc3"></p>
+          <p data-translate="desc2"></p>
+          <div style="display: flex; justify-content: center;">
+            <img src="pics/miele.jpg" alt="" style="max-width: 50%; margin-bottom: 20px;">
+          </div>
+          <p data-translate="desc4"></p>
+          <p data-translate="desc5"></p>
+          <p data-translate="desc6"></p>
+          <p data-translate="desc7"></p>
+        </section>
       <section id="portfolio">
 
-          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" >
+          <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true" data-bs-interval="3000" >
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="pics/image_6487327 (1).JPG" class="d-block w-100" alt="...">
@@ -84,9 +98,6 @@
               <div class="carousel-item">
                 <img src="pics/image_50444033.JPG" class="d-block w-100" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="pics/miele.jpg" class="d-block w-100" alt="...">
-              </div>
               
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
@@ -101,13 +112,14 @@
 
           
       </section>
-      <section id="contact">
+      <section id="contact" style="padding-top: 20px;">
           <h2 data-translate="contact">Contact Us</h2>
           <p>Email: ferrieri.chabert@gmail.com</p>
           <p>(+39)3407481617</p>
           <p>(+39)3932968847</p>
       </section>
     </div>
+  </div>
 
   </main>
 
